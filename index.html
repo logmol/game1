@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container">
+		<div class="vopros1" style="display: block">
+			<div>
+				<h2>когда был запущен первый спутник земли</h2>
+			</div>
+			<div class="border py-3 px-4 otvet1">4 октября 1957 г</div>
+			<div class="border py-3 px-4 otvet2">3 ноября  1957 г</div>
+			<div class="border py-3 px-4 otvet3">20 октября 1957 г</div>
+		</div>
+		
+		<div class="vopros2" style="display: none">
+			<div>
+				<h2>кто режиссер фильма первому игроку приготовиться</h2>
+			</div>
+			<div class="border py-3 px-4 otvet4">Кристофер Нолан</div>
+			<div class="border py-3 px-4 otvet5">Стивен Спилберг</div>
+			<div class="border py-3 px-4 otvet6">Крис Коламбус</div>
+		</div>
+		<div class="vopros3" style="display: none">
+			<div>
+				<img src="1.jpg">
+				<h2>как зовут героя игры</h2>
+			</div>
+			<div class="border py-3 px-4 otvet7">райнхард </div>
+			<div class="border py-3 px-4 otvet8">Таран</div>
+			<div class="border py-3 px-4 otvet9">Уинстон</div>
+		</div>
+		<div class="vopros4" style="display: none">
+			<div>
+				<img src="images.jpg">
+				<h2>как называется фильм</h2>
+			</div>
+			<div class="border py-3 px-4 otvet10">апгрейд</div>
+			<div class="border py-3 px-4 otvet11">человек паук</div>
+			<div class="border py-3 px-4 otvet12">веном</div>
+		</div>
+		<div class="vopros5" style="display: none">
+			<div>
+				<img src="ilon.jpg">
+				<h2>как зовут этого человека</h2>
+			</div>
+			<div class="border py-3 px-4 otvet13">Тим кук</div>
+			<div class="border py-3 px-4 otvet14">Илон Маск</div>
+			<div class="border py-3 px-4 otvet15">Стив Джобс</div>
+		</div>
+		<div class="vopros6" style="display: none">
+			<div>
+				<div class="col-5">
+					<img src="fallout.jpg" class="w-100">
+				</div>
+				<h2>из какой игры это фото</h2>
+			</div>
+			<div class="border py-3 px-4 otvet16">fallout</div>
+			<div class="border py-3 px-4 otvet17">Half-Life</div>
+			<div class="border py-3 px-4 otvet18">Fallout Shelter</div>
+		</div>
+		<div class="vopros7" style="display: none">
+			<div>
+				<h2>самый известный ютубер в россии</h2>
+			</div>
+			<div class="border py-3 px-4 otvet19">ивангай</div>
+			<div class="border py-3 px-4 otvet20">PewDiePie</div>
+			<div class="border py-3 px-4 otvet21">SlivkiShow</div>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		//вопрос первый 
+		document.querySelector(".otvet1").onclick = function(){
+			alert("Правильно");
+			document.querySelector(".vopros2").style.display = "block"
+			document.querySelector(".vopros1").style.display = "none"
+		}
+		document.querySelector(".otvet2").onclick = function(){
+			alert("Не правильно")
+		}
+		document.querySelector(".otvet3").onclick = function(){
+			alert("Не правильно")
+		}
+		//второй вопрос
+		document.querySelector(".otvet4").onclick = function(){
+			alert("Не правильно")
+		} 
+		document.querySelector(".otvet5").onclick = function(){
+			alert("Правильно")
+			document.querySelector(".vopros3").style.display = "block"
+			document.querySelector(".vopros2").style.display = "none"
+		} 
+		document.querySelector(".otvet6").onclick = function(){
+			alert("Не правильно")
+		} 
+		//третий вопрос
+		document.querySelector(".otvet7").onclick = function(){
+			alert("Правильно")
+			document.querySelector(".vopros4").style.display = "block"
+			document.querySelector(".vopros3").style.display = "none"
+		}
+		document.querySelector(".otvet8").onclick = function(){
+			alert("Не правильно")
+		}
+		document.querySelector(".otvet9").onclick = function(){
+			alert("Не правильно")
+		}
+		//четвертый вопрос
+		document.querySelector(".otvet10").onclick = function(){
+			alert("Не правильно")
+		}
+		document.querySelector(".otvet11").onclick = function(){
+			alert("Не правильно")
+		}
+		document.querySelector(".otvet12").onclick = function(){
+			alert("Правильно")
+			document.querySelector(".vopros5").style.display = "block"
+			document.querySelector(".vopros4").style.display = "none"
+		}
+		//пятый вопрос
+		document.querySelector(".otvet13").onclick = function(){
+			alert("Не правильно")
+		}
+		document.querySelector(".otvet14").onclick = function(){
+			alert("Правильно")
+			document.querySelector(".vopros6").style.display = "block"
+			document.querySelector(".vopros5").style.display = "none"
+		}
+		document.querySelector(".otvet15").onclick = function(){
+			alert("Не правильно")
+		}
+		//шестой вопрос
+		document.querySelector(".otvet16").onclick = function(){
+			alert("Не правильно")
+		}
+		document.querySelector(".otvet17").onclick = function(){
+			alert("Не правильно")
+		}
+		document.querySelector(".otvet18").onclick = function(){
+			alert("Правильно")
+			document.querySelector(".vopros7").style.display = "block"
+			document.querySelector(".vopros6").style.display = "none"
+		}
+		//седьмой вопрос
+		document.querySelector(".otvet19").onclick = function(){
+			alert("Правильно")
+		}
+		document.querySelector(".otvet20").onclick = function(){
+			alert("Не правильно")
+		}
+		document.querySelector(".otvet21").onclick = function(){
+			alert("Не правильно")
+		}
+	</script>
+</body>
+</html>
